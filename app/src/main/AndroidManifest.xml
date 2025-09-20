@@ -13,9 +13,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.DeviceAdminTest">
         <activity
-            android:name=".DeviceOwnerActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
