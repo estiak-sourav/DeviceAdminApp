@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
     private var devicePolicyManager: DevicePolicyManager? = null
     private lateinit var adminComponent: ComponentName
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
